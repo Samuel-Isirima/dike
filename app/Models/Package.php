@@ -9,16 +9,24 @@ class Package extends Model
 {
     use HasFactory;
 
-    public $tracking_code;
-    public $type;
-    public $net_weight;
-    public $gross_weight;
-    public $sender_full_name;
-    public $sender_country;
-    public $sender_state;
-    public $sender_city;
-    public $sender_address;
-    public $recipient_full_name;
-    public $recipient_address;
-    public $description;
+    protected $fillable = [
+        'tracking_code',
+        'type',
+        'net_weight',
+        'gross_weight',
+        'sender_full_name',
+        'sender_country',
+        'sender_state',
+        'sender_city',
+        'sender_address',
+        'receiver_full_name',
+        'receiver_country',
+        'receiver_state',
+        'receiver_city',
+        'receiver_address',
+        'status',
+        'description',
+        'title',
+    ];
+
 }

@@ -9,16 +9,19 @@ class Transit extends Model
 {
     use HasFactory;
 
-    public $mode; //Air, water, etc
-    public $date_arrived;
-    public $date_sent;
-    public $depature_city;
-    public $depature_state;
-    public $depature_country;
-    public $arrival_city;
-    public $arrival_state;
-    public $arrival_country;
-    public $status;         //On hold, in transit, etc
-    public $description;
-    public $title;
+    protected $fillable = [
+        'package_id',
+        'mode',
+        'date_arrived',
+        'date_sent',
+        'depature_city',
+        'depature_state',
+        'depature_country',
+        'arrival_city',
+        'arrival_state',
+        'arrival_country',
+        'status',
+        'description',
+        'title',
+    ];
 }
