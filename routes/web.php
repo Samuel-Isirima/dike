@@ -49,3 +49,8 @@ Route::get(uri: '/admin/packages', action: [AdminPackageController::class, 'inde
 Route::post(uri: '/admin/create-package', action: [AdminPackageController::class, 'create'])->name(name: 'admin.packages.create');
 
 Route::get(uri: '/admin/package', action: [AdminPackageController::class, 'show'])->name(name: 'admin.package.show');
+
+Route::post(uri: '/admin/edit-package', action: [AdminPackageController::class, 'edit'])->name(name: 'admin.package.edit');
+
+Route::post(uri: '/admin/delete-package', action: [AdminPackageController::class, 'delete'])->name(name: 'admin.package.delete');
+

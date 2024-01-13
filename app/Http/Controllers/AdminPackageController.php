@@ -127,6 +127,15 @@ class AdminPackageController extends Controller
         //Return back with a success message
         return back()->with('success', 'Package deleted successfully');
     }
+
+    public function getPackagesJSON(Request $request)
+    {
+        //Get all the packages from the database
+        $packages = \App\Models\Package::all();
+
+        //Return the packages as JSON
+        return response()->json($packages);
+    }
 }
 
  
