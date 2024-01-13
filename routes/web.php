@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\AdminPackageController;
 
 /*
 |--------------------------------------------------------------------------
@@ -42,3 +43,9 @@ Route::get('/road-freight', function () {
 Route::get('/ware-housing-and-storage', function () {
     return view('ware-housing-and-storage');
 });
+
+Route::get(uri: '/admin/packages', action: [AdminPackageController::class, 'index'])->name(name: 'admin.packages.index');
+
+Route::post(uri: '/admin/create-package', action: [AdminPackageController::class, 'create'])->name(name: 'admin.packages.create');
+
+Route::get(uri: '/admin/package', action: [AdminPackageController::class, 'show'])->name(name: 'admin.package.show');

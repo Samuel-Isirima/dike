@@ -20,4 +20,6 @@ class CustomerPackageController extends Controller
 
         return view('package', compact('package', 'transits'));
     }
+
+    
 }
