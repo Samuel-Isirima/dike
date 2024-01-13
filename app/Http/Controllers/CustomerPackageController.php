@@ -16,10 +16,10 @@ class CustomerPackageController extends Controller
         $package = \App\Models\Package::where('tracking_code', $tracking_code)->first();
 
         //Get the transit history of the package
-        $transits = \App\Models\Transit::where('package_id', $package->id)->get();
+        $transits = [];//\App\Models\Transit::where('package_id', $package->id)->get();
 
         return view('package', compact('package', 'transits'));
     }
 
-    
+
 }

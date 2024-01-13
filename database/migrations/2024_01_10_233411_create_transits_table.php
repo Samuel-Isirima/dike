@@ -14,7 +14,7 @@ return new class extends Migration
         Schema::create('transits', function (Blueprint $table) {
             $table->id();
             $table->timestamps();
-            $table->unsignedBigInt('package_id');
+            $table->unsignedBigInteger('package_id');
             $table->string('mode');
             $table->string('date_arrived');
             $table->string('date_sent');

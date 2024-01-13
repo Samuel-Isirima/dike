@@ -100,7 +100,6 @@ class AdminTransitController extends Controller
         //Delete the transit
         $transit = \App\Models\Transit::where('id', $request->input('id'))->delete();
 
-        //Redirect to the package details page
-        return redirect('/admin/packages/' . $request->input('package_id'));
+       return back()->with('success', 'Transit deleted successfully');
     }
 }

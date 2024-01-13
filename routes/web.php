@@ -2,6 +2,8 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\AdminPackageController;
+use App\Http\Controllers\AdminTransitController;
+use App\Http\Controllers\CustomerPackageController; 
 
 /*
 |--------------------------------------------------------------------------
@@ -44,6 +46,9 @@ Route::get('/ware-housing-and-storage', function () {
     return view('ware-housing-and-storage');
 });
 
+Route::get(uri: '/package', action: [CustomerPackageController::class, 'show'])->name(name: 'customer.package.index');
+
+
 Route::get(uri: '/admin/packages', action: [AdminPackageController::class, 'index'])->name(name: 'admin.packages.index');
 
 Route::post(uri: '/admin/create-package', action: [AdminPackageController::class, 'create'])->name(name: 'admin.packages.create');
@@ -54,3 +59,8 @@ Route::post(uri: '/admin/edit-package', action: [AdminPackageController::class, 
 
 Route::post(uri: '/admin/delete-package', action: [AdminPackageController::class, 'delete'])->name(name: 'admin.package.delete');
 
+Route::post(uri: '/admin/create-transit', action: [AdminTransitController::class, 'create'])->name(name: 'admin.transit.create');
+
+Route::post(uri: '/admin/edit-transit', action: [AdminTransitController::class, 'edit'])->name(name: 'admin.transit.edit');
+
+Route::post(uri: '/admin/delete-transit', action: [AdminTransitController::class, 'delete'])->name(name: 'admin.transit.delete');

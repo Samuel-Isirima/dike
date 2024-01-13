@@ -1,26 +1,36 @@
-<!DOCTYPE html>
-<html lang="zxx">
+@extends('layouts.about')
+@section('title', 'Package')
 
-<head>
-    <!-- Meta Tag -->
-    <meta charset="utf-8" />
-    <title>Welcome to Dike</title>
-    <meta name="description" content="" />
-    <meta http-equiv="x-ua-compatible" content="ie=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-
-<!-- Style css -->
-<link rel="stylesheet" href="style.css" />
-<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
-<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
-<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-
-</head>
-
-<body>
-
+@section('content')
+<section class="breadcrumb-wrapper" data-bg-image="assets/images/banner/breadcrumb.jpg">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="breadcrumb-content">
+                        <h1 class="breadcrumb-title text-center">Package Tracking</h1>
+                        <div class="breadcrumb-link">
+                            <span>
+                                <a href="index.html">
+                                    <span>Home</span>
+                                </a>
+                            </span>
+                            >
+                            <span>
+                                <span> Services</span>
+                            </span>
+                            >
+                            <span>
+                                <span> Package Tracking</span>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--========== breadcrumb End ==============-->
 <div class="container mt-4">
-    <h2 style="text-align: center;" class="py-4">TRACKING ID: 2378934LKJEQRQ3</h2>
+    <h4 style="text-align: center;" class="py-4">TRACKING ID: 2378934LKJEQRQ3</h4>
    <div class="row">
       
       <div class="col-md-12 col-lg-12">
@@ -266,5 +276,5 @@
    </div>
 </div>
 
-</body>
-</html>
+
+@endsection
