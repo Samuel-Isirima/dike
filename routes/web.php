@@ -51,13 +51,20 @@ Route::get(uri: '/package', action: [CustomerPackageController::class, 'show'])-
 
 Route::get(uri: '/admin/packages', action: [AdminPackageController::class, 'index'])->name(name: 'admin.packages.index');
 
-Route::post(uri: '/admin/create-package', action: [AdminPackageController::class, 'create'])->name(name: 'admin.packages.create');
+Route::get(uri: '/admin', action: [AdminPackageController::class, 'index'])->name(name: 'admin.packages.index');
+
+
+Route::post(uri: '/admin/create-package-action', action: [AdminPackageController::class, 'create'])->name(name: 'admin.package.create');
+
+Route::get(uri: '/admin/create-package', action: [AdminPackageController::class, 'show_create'])->name(name: 'admin.packages.show-create');
 
 Route::get(uri: '/admin/package', action: [AdminPackageController::class, 'show'])->name(name: 'admin.package.show');
 
-Route::post(uri: '/admin/edit-package', action: [AdminPackageController::class, 'edit'])->name(name: 'admin.package.edit');
+Route::post(uri: '/admin/edit-package-action', action: [AdminPackageController::class, 'updatePackage'])->name(name: 'admin.package.edit');
 
-Route::post(uri: '/admin/delete-package', action: [AdminPackageController::class, 'delete'])->name(name: 'admin.package.delete');
+Route::get(uri: '/admin/edit-package', action: [AdminPackageController::class, 'showEditPackage'])->name(name: 'admin.package.show-edit');
+
+Route::post(uri: '/admin/delete-package', action: [AdminPackageController::class, 'deletePackage'])->name(name: 'admin.package.delete');
 
 Route::post(uri: '/admin/create-transit', action: [AdminTransitController::class, 'create'])->name(name: 'admin.transit.create');
 

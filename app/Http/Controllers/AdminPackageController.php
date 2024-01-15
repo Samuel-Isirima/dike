@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Log;
 
 class AdminPackageController extends Controller
 {
@@ -12,8 +13,16 @@ class AdminPackageController extends Controller
         //Get all the packages from the database
         $packages = \App\Models\Package::all();
 
-        return view('admin.packages', compact('packages'));
+        return view('admin.view-packages', compact('packages'));
     }
+
+
+    public function show_create(Request $request)
+    {
+
+        return view('admin.create-package');
+    }
+
 
     public function create(Request $request)
     {
@@ -29,16 +38,21 @@ class AdminPackageController extends Controller
             'sender_state' => 'required',
             'sender_country' => 'required',
             'sender_phone' => 'required',
+            'sender_email' => 'required',
             'recipient_name' => 'required',
             'recipient_address' => 'required',
             'recipient_city' => 'required',
             'recipient_state' => 'required',
             'recipient_country' => 'required',
             'recipient_phone' => 'required',
+            'type' => 'required',
+            'net_weight' => 'required',
+            'gross_weight' => 'required',
+            'quantity' => 'required',
         ]);
 
         //generate a random 10 character tracking code
-        $tracking_code = substr(md5(time()), 0, 10);
+        $tracking_code = substr(md5(time()), 0, 18);
 
         //Create the package
         $package = \App\Models\Package::create([
@@ -53,16 +67,21 @@ class AdminPackageController extends Controller
             'sender_state' => $request->input('sender_state'),
             'sender_country' => $request->input('sender_country'),
             'sender_phone' => $request->input('sender_phone'),
+            'sender_email' => $request->input('sender_email'),
             'recipient_name' => $request->input('recipient_name'),
             'recipient_address' => $request->input('recipient_address'),
             'recipient_city' => $request->input('recipient_city'),
             'recipient_state' => $request->input('recipient_state'),
             'recipient_country' => $request->input('recipient_country'),
             'recipient_phone' => $request->input('recipient_phone'),
+            'type' => $request->input('type'),
+            'net_weight' => $request->input('net_weight'),
+            'gross_weight' => $request->input('gross_weight'),
+            'quantity' => $request->input('quantity'),
         ]);
 
       //Redirect to the package details page
-        return redirect()->route('admin.package.show', ['tracking_code' => $package->tracking_code]);
+        return redirect()->route('admin.package.show', ['tracking_code' => $package->tracking_code])->with('success', 'Package created successfully');
     }
 
 
@@ -81,13 +100,29 @@ class AdminPackageController extends Controller
     }
 
     
+    public function showEditPackage(Request $request)
+    {
+        //Get the package id from the request
+        $package_id = $request->input('ufier');
+        //Get the package from the database
+        $package = \App\Models\Package::where('id', $package_id)->first();
+        //Return the edit package view
+
+        return view('admin.edit-package', compact('package'));
+    }
+
     public function updatePackage(Request $request)
     {
         //Get the package tracking code from the request
-        $tracking_code = $request->input('tracking_code');
+        $id = $request->input('ufier');
 
         //Get the package from the database
-        $package = \App\Models\Package::where('tracking_code', $tracking_code)->first();
+        $package = \App\Models\Package::where('id', $id)->first();
+
+        Log::info('Package');
+        Log::info($package);
+        Log::info('PACKAGE ID');
+        Log::info($id);
 
         //Update the package
         $package->update([
@@ -101,12 +136,17 @@ class AdminPackageController extends Controller
             'sender_state' => $request->input('sender_state'),
             'sender_country' => $request->input('sender_country'),
             'sender_phone' => $request->input('sender_phone'),
+            'sender_email' => $request->input('sender_email'),
             'recipient_name' => $request->input('recipient_name'),
             'recipient_address' => $request->input('recipient_address'),
             'recipient_city' => $request->input('recipient_city'),
             'recipient_state' => $request->input('recipient_state'),
             'recipient_country' => $request->input('recipient_country'),
             'recipient_phone' => $request->input('recipient_phone'),
+            'type' => $request->input('type'),
+            'net_weight' => $request->input('net_weight'),
+            'gross_weight' => $request->input('gross_weight'),
+            'quantity' => $request->input('quantity'),
         ]);
 
        //Return back with a success message
@@ -124,8 +164,8 @@ class AdminPackageController extends Controller
         //Delete the package
         $package->delete();
 
-        //Return back with a success message
-        return back()->with('success', 'Package deleted successfully');
+        return redirect()->route('admin.packages.index')
+        ->with('success', 'Package deleted successfully');
     }
 
     public function getPackagesJSON(Request $request)
