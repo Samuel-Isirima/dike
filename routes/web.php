@@ -66,7 +66,9 @@ Route::get(uri: '/admin/edit-package', action: [AdminPackageController::class, '
 
 Route::post(uri: '/admin/delete-package', action: [AdminPackageController::class, 'deletePackage'])->name(name: 'admin.package.delete');
 
-Route::post(uri: '/admin/create-transit', action: [AdminTransitController::class, 'create'])->name(name: 'admin.transit.create');
+Route::get(uri: '/admin/create-transit', action: [AdminTransitController::class, 'showCreate'])->name(name: 'admin.transit.show-create');
+
+Route::post(uri: '/admin/create-transit-action', action: [AdminTransitController::class, 'create'])->name(name: 'admin.transit.create');
 
 Route::post(uri: '/admin/edit-transit', action: [AdminTransitController::class, 'edit'])->name(name: 'admin.transit.edit');
 

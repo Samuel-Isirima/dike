@@ -6,7 +6,18 @@ use Illuminate\Http\Request;
 
 class AdminTransitController extends Controller
 {
+
+
     //
+
+    public function show_create(Request $request)
+    {
+        //Get the package id from the request
+        $package_id = $request->input('package_id');
+
+        return view('admin.create-transit', compact('package_id'));
+    }
+
     public function create(Request $request)
     {
         //Validate the request
