@@ -74,7 +74,7 @@
     <div class="tj-offcanvas-area">
         <div class="tj-offcanvas-header d-flex align-items-center justify-content-between">
             <div class="logo-area text-center">
-                <a href="index.html"><img src="assets/images/logo/logo.png" alt="Logo" /></a>
+                <a href="/"><img src="assets/images/logo/logo.png" alt="Logo" /></a>
             </div>
             <div class="offcanvas-icon">
                 <a id="canva_close" href="#">
@@ -125,7 +125,7 @@
                         <!-- Logo Area Start -->
                         <div class="logo-area">
                             <div class="logo-box">
-                                <a href="index.html"><img src="assets/images/logo/logo.png" alt="Logo" /></a>
+                                <a href="/"><img src="assets/images/logo/logo.png" alt="Logo" /></a>
                             </div>
                         </div>
                         <!-- Logo Area End -->
@@ -146,27 +146,27 @@
                             <!-- Header menu Start -->
                             <div class="header-content d-flex flex-wrap align-items-center justify-content-between">
                                 <div class="mobile-logo-area d-lg-none">
-                                    <a href="index.html"><img src="assets/images/logo/logo.png" alt="Logo" /></a>
+                                    <a href="/"><img src="assets/images/logo/logo.png" alt="Logo" /></a>
                                 </div>
                                 <!-- Mainmenu Item Start -->
                                 <div class="tj-main-menu d-lg-block d-none text-end" id="main-menu">
                                     <ul class="main-menu">
                                         <li class="">
-                                            <a href="index.html"> Home</a>
+                                            <a href="/"> Home</a>
                                         </li>
                                         <li class="ab-gap current-menu-item">
-                                            <a class="active" href="about.html"> About Us</a>
+                                            <a class="active" href="/about"> About Us</a>
                                         </li>
                                         <li class="menu-item-has-children">
-                                            <a href="#"> Service</a>
+                                            <a> Service</a>
                                             <ul class="list-gap sub-menu-list">
-                                                <li><a href="#">AIR FREIGHT FORWARDING</a></li>
-                                                <li><a href="#">OCEAN FREIGHT FORWARDING</a></li>
-                                                <li><a href="#">ROAD FREIGHT FORWARDING</a></li>
-                                                <li><a href="#">WAREHOUSING AND STORAGE</a></li>
-                                            </ul>
+                                            <li><a href="/air-freight">AIR FREIGHT FORWARDING</a></li>
+                                            <li><a href="/ocean-freight">OCEAN FREIGHT FORWARDING</a></li>
+                                            <li><a href="/road-freight">ROAD FREIGHT FORWARDING</a></li>
+                                            <li><a href="/ware-housing-and-storage">WAREHOUSING AND STORAGE</a></li>
+                                        </ul>
                                         </li>
-                                        <li><a href="contact.html">Contact</a></li>
+                                        <li><a href="/contact">Contact</a></li>
                                     </ul>
                                 </div>
                                 <!-- Mainmenu Item End -->
@@ -203,7 +203,7 @@
                 <div class="col-xl-4 col-lg-3 col-md-6 col-sm-6">
                     <div class="footer-widget footer1_col_1 footer-content-info"
                         data-bg-image="assets/images/banner/footer-shape.png">
-                        <a href="index.html"> <img src="assets/images/logo/footer-logo.png" alt="Logo" /></a>
+                        <a href="/"> <img src="assets/images/logo/footer-logo.png" alt="Logo" /></a>
                         <p>
                             A farm is a plot of land that is used to grow crops and raise livestock, as in our farm,
                             we raise sheep and sell their wool the word farm is also.

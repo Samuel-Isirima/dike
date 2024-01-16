@@ -42,11 +42,17 @@ Route::get('/road-freight', function () {
     return view('road-freight');
 });
 
+Route::get('/contact', function () {
+    return view('contact');
+});
+
 Route::get('/ware-housing-and-storage', function () {
     return view('ware-housing-and-storage');
 });
 
 Route::get(uri: '/package', action: [CustomerPackageController::class, 'show'])->name(name: 'customer.package.index');
+
+Route::post(uri: '/package-action', action: [CustomerPackageController::class, 'getDetails'])->name(name: 'customer.package.index-action');
 
 
 Route::get(uri: '/admin/packages', action: [AdminPackageController::class, 'index'])->name(name: 'admin.packages.index');

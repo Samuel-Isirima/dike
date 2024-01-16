@@ -73,17 +73,17 @@
     <div class="tj-offcanvas-area">
         <div class="tj-offcanvas-header d-flex align-items-center justify-content-between">
             <div class="logo-area text-center">
-                <a href="index.html"><img src="assets/images/logo/logo.png" alt="Logo" /></a>
+                <a href="/"><img src="assets/images/logo/logo.png" alt="Logo" /></a>
             </div>
             <div class="offcanvas-icon">
-                <a id="canva_close" href="#">
+                <a id="canva_close">
                     <i class="fa fa-times"></i>
                 </a>
             </div>
         </div>
         <div class="tj-search-box">
             <form action="{{route('customer.package.index')}}">
-                <input type="text" class="form-control-1" name="tracking_code" id="tracking_code" placeholder="ENTER TRACKING CODE" />
+                <input type="text" class="form-control-1" name="tracking_code" id="tracking_code" placeholder="ENTER TRACKING CODE" required/>
                 <button class="btn btn-xs"> <i class="fa fa-search"></i></button>
             </form>
         </div>
@@ -124,21 +124,21 @@
                     <div class="search_wrapper">
                         <div class="search_top d-flex justify-content-between align-items-center">
                             <div class="search_logo">
-                                <a href="index.html">
+                                <a href="/">
                                     <img src="assets/images/logo/logo2.png" alt="logo" />
                                 </a>
                             </div>
                             <div class="search_close">
-                                <a class="search_close_btn" href="#"> <i class="fa fa-times"></i></a>
+                                <a class="search_close_btn"> <i class="fa fa-times"></i></a>
                             </div>
                         </div>
                         <div class="search_form">
-                            <form action="#">
+                            <form  action="{{route('customer.package.index')}}" method="GET">
                                 <div class="search_input">
-                                    <input class="search-input-field" type="text"
-                                        placeholder="ENTER TRACKING ID..." />
+                                    <input class="search-input-field" name="tracking_code" type="text"
+                                        placeholder="ENTER TRACKING ID" required />
                                     <span class="search-focus-border"></span>
-                                    <a href="#"> <i class="flaticon-loupe"></i></a>
+                                    <button class="btn btn-xs"> <i class="flaticon-loupe"></i></button>
                                 </div>
                             </form>
                         </div>
@@ -159,27 +159,27 @@
                     <div class="col-lg-12">
                         <div class="header-menu-area">
                             <div class="logo-box">
-                                <a href="index.html"><img src="assets/images/logo/logo2.png" alt="Logo" /></a>
+                                <a href="/"><img src="assets/images/logo/logo2.png" alt="Logo" /></a>
                             </div>
                             <!-- Mainmenu Item Start -->
                             <div class="tj-main-menu d-lg-block d-none text-end" id="main-menu">
                                 <ul class="main-menu">
                                     <li class="active current-menu-item">
-                                        <a class="active" href="index.html"> Home</a>
+                                        <a class="active" href="/"> Home</a>
                                     </li>
                                     <li>
-                                        <a href="about.html"> About Us</a>
+                                        <a href="/about"> About Us</a>
                                     </li>
                                     <li class="menu-item-has-children">
-                                        <a href="#"> Services</a>
+                                        <a> Services</a>
                                         <ul class="list-gap sub-menu-list">
-                                            <li><a href="#">AIR FREIGHT FORWARDING</a></li>
-                                            <li><a href="#">OCEAN FREIGHT FORWARDING</a></li>
-                                            <li><a href="#">ROAD FREIGHT FORWARDING</a></li>
-                                            <li><a href="#">WAREHOUSING AND STORAGE</a></li>
+                                            <li><a href="/air-freight">AIR FREIGHT FORWARDING</a></li>
+                                            <li><a href="/ocean-freight">OCEAN FREIGHT FORWARDING</a></li>
+                                            <li><a href="/road-freight">ROAD FREIGHT FORWARDING</a></li>
+                                            <li><a href="/ware-housing-and-storage">WAREHOUSING AND STORAGE</a></li>
                                         </ul>
                                     </li>
-                                    <li><a href="contact.html">Contact</a></li>
+                                    <li><a href="/contact">Contact</a></li>
                                 </ul>
                             </div>
                             <!-- Mainmenu Item End -->
@@ -236,7 +236,7 @@
                                         LOGISTICS SERVICES REGARDLESS OF YOUR INDUSTRY, YOUR COMMODITY OR KEY MARKETS
                                     </h1>
                                     <div class="tj-theme-button">
-                                        <a class="tj-transparent-btn" href="contact.html">
+                                        <a class="tj-transparent-btn" href="/about">
                                             Read More <i class="flaticon-right-1"></i>
                                         </a>
                                     </div>
@@ -266,7 +266,7 @@
                                         SHIPPING SERVICES. WE PACKAGE AND STORE YOUR SHIPMENTS EFFECTIVELY AND SECURELY.
                                     </h1>
                                     <div class="tj-theme-button">
-                                        <a class="tj-transparent-btn" href="#">
+                                        <a class="tj-transparent-btn" href="/about">
                                             Read More <i class="flaticon-right-1"></i>
                                         </a>
                                     </div>
@@ -296,7 +296,7 @@
                                     <h1 class="slider-title">GET EXPRESS COURIER DELIVERY FROM THE SPECIALISTS IN
                                         INTERNATIONAL SHIPPING.</h1>
                                     <div class="tj-theme-button">
-                                        <a class="tj-transparent-btn" href="#">
+                                        <a class="tj-transparent-btn" href="/about">
                                             Read More <i class="flaticon-right-1"></i>
                                         </a>
                                     </div>
@@ -345,7 +345,7 @@
                             <div class="service-icon">
                                 <i class="flaticon-air-freight"></i>
                             </div>
-                            <h4><a class="title" href="service-details.html"> Air Freight Service</a></h4>
+                            <h4><a class="title" href="/air-freight"> Air Freight Service</a></h4>
                             <p>Air freight can reduce the total logistics cost for time-critical logistical
                                 challenges.</p>
                         </div>
@@ -360,7 +360,7 @@
                             <div class="service-icon">
                                 <i class="flaticon-cargo-ship-1"></i>
                             </div>
-                            <h4><a class="title" href="service-details.html"> Ocean Freight</a></h4>
+                            <h4><a class="title" href="/ocean-freight"> Ocean Freight</a></h4>
                             <p>Our services range from the coordination of single LCL shipments all the way to
                                 multicountry consolidation.</p>
                         </div>
@@ -375,7 +375,7 @@
                             <div class="service-icon">
                                 <i class="flaticon-delivery-van"></i>
                             </div>
-                            <h4><a class="title" href="service-details.html"> Road Freight</a></h4>
+                            <h4><a class="title" href="/road-freight"> Road Freight</a></h4>
                             <p>When goods have to be delivered to your customer's door, road freight is still
                                 indispensable.</p>
                         </div>
@@ -395,7 +395,7 @@
                         <h3 class="title">WE ARE DEDICATED TO PROVIDE THE BEST SERVICES
                             AT THE LOWEST POSSIBLE COST</p>
                             <div class="tj-theme-button">
-                                <a class="tj-primary-btn tj-transparent-btn" href="contact.html">
+                                <a class="tj-primary-btn tj-transparent-btn" href="/about">
                                     Read More <i class="flaticon-right-1"></i>
                                 </a>
                             </div>
@@ -599,7 +599,7 @@
                             <h2 class="title">Reasons Why You Choose Us.</h2>
                         </div>
                         <div class="tj-theme-button">
-                            <a class="tj-transparent-btn" href="contact.html">
+                            <a class="tj-transparent-btn" href="/about">
                                 Read More <i class="flaticon-right-1"></i>
                             </a>
                         </div>
@@ -664,7 +664,7 @@
                 <div class="col-xl-6 col-lg-6">
                     <div class="footer-contact-box">
                         <div class="footer-logo">
-                            <a href="index.html"> <img src="assets/images/logo/footer-logo.png" alt="Logo" /></a>
+                            <a href="/"> <img src="assets/images/logo/footer-logo.png" alt="Logo" /></a>
                         </div>
                         <p>
                             AsusXpress is a global supplier of transport and logistics solutions. We have offices in more than 70
@@ -696,8 +696,8 @@
                     <div class="footer-subscribe-box">
                         <h3 class="title">TRACK YOUR ITEM</h3>
                         <div class="footer-form">
-                            <form action="{{route('customer.package.index')}}" method="POST">
-                            <input type="text" id="email" placeholder="Tracking ID" required="" />
+                            <form action="{{route('customer.package.index')}}" method="GET">
+                            <input type="text" name="tracking_code" placeholder="Tracking ID" required/>
                             <div class="tj-theme-button">
                                 <button class="tj-transparent-btn submit-btn2" type="submit" value="submit">
                                     Track <i class="flaticon-right-1"></i>

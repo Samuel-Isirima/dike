@@ -14,9 +14,15 @@ class CustomerPackageController extends Controller
 
         //Get the package from the database
         $package = \App\Models\Package::where('tracking_code', $tracking_code)->first();
-
-        //Get the transit history of the package
-        $transits = [];//\App\Models\Transit::where('package_id', $package->id)->get();
+        if(!$package)
+        {
+            $transits = [];
+        }
+        else
+        {
+            //Get the transit history of the package
+            $transits = \App\Models\Transit::where('package_id', $package->id)->get();
+        }
 
         return view('package', compact('package', 'transits'));
     }
