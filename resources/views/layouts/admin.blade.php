@@ -4,7 +4,7 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Ranbax Admin | @yield('title')</title>
+    <title>AsusXpress Admin | @yield('title')</title>
     <!-- plugins:css -->
     <link rel="stylesheet" href="../assets/admin/vendors/mdi/css/materialdesignicons.min.css">
     <link rel="stylesheet" href="../assets/admin/vendors/flag-icon-css/css/flag-icon.min.css">
@@ -73,8 +73,8 @@
           <footer class="footer">
             <div class="footer-inner-wraper">
               <div class="d-sm-flex justify-content-center justify-content-sm-between py-2">
-                <span class="text-muted text-center text-sm-left d-block d-sm-inline-block">Copyright © <a href="/">Ranbax </a>2024</span>
-                <span class="float-none float-sm-right d-block mt-1 mt-sm-0 text-center"><a href="/admin"> Ranbax </a> Admin</span>
+                <span class="text-muted text-center text-sm-left d-block d-sm-inline-block">Copyright © <a href="/">AsusXpress </a>2024</span>
+                <span class="float-none float-sm-right d-block mt-1 mt-sm-0 text-center"><a href="/admin"> AsusXpress </a> Admin</span>
               </div>
             </div>
           </footer>

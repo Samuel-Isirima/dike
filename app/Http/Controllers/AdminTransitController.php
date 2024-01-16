@@ -10,12 +10,13 @@ class AdminTransitController extends Controller
 
     //
 
-    public function show_create(Request $request)
+    public function showCreate(Request $request)
     {
         //Get the package id from the request
         $package_id = $request->input('package_id');
+        $package = \App\Models\Package::where('id', $package_id)->first();
 
-        return view('admin.create-transit', compact('package_id'));
+        return view('admin.create-transit', compact('package_id', 'package'));
     }
 
     public function create(Request $request)
@@ -24,7 +25,7 @@ class AdminTransitController extends Controller
         $request->validate([
             'package_id' => 'required',
             'mode' => 'required',
-            'date_arrived' => 'required',
+            'expected_date_of_arrival' => 'required',
             'date_sent' => 'required',
             'depature_city' => 'required',
             'depature_state' => 'required',
@@ -34,14 +35,13 @@ class AdminTransitController extends Controller
             'arrival_country' => 'required',
             'status' => 'required',
             'description' => 'required',
-            'title' => 'required',
         ]);
 
         //Create the transit
         $transit = \App\Models\Transit::create([
             'package_id' => $request->input('package_id'),
             'mode' => $request->input('mode'),
-            'date_arrived' => $request->input('date_arrived'),
+            'expected_date_of_arrival' => $request->input('expected_date_of_arrival'),
             'date_sent' => $request->input('date_sent'),
             'depature_city' => $request->input('depature_city'),
             'depature_state' => $request->input('depature_state'),
@@ -51,22 +51,36 @@ class AdminTransitController extends Controller
             'arrival_country' => $request->input('arrival_country'),
             'status' => $request->input('status'),
             'description' => $request->input('description'),
-            'title' => $request->input('title'),
         ]);
 
+        //Get the package from the database
+        $package = \App\Models\Package::where('id', $request->input('package_id'))->first();
         //Redirect to the package details page
-        return redirect('/admin/packages/' . $request->input('package_id'));
+        return redirect('/admin/package?tracking_code='. $package->tracking_code);
     }
 
+    public function showEdit(Request $request)
+    {
+        //Get the transit id from the request
+        $id = $request->input('transit_id');
+
+        //Get the transit from the database
+        $transit = \App\Models\Transit::where('id', $id)->first();
+
+        //Get the package from the database
+        $package = \App\Models\Package::where('id', $transit->package_id)->first();
+
+        return view('admin.edit-transit', compact('transit', 'package'));
+    }
 
     public function edit(Request $request)
     {
         //Validate the request
         $request->validate([
             'id' => 'required',
-            'package_id' => 'required',
+            // 'package_id' => 'required',
             'mode' => 'required',
-            'date_arrived' => 'required',
+            'expected_date_of_arrival' => 'required',
             'date_sent' => 'required',
             'depature_city' => 'required',
             'depature_state' => 'required',
@@ -76,14 +90,13 @@ class AdminTransitController extends Controller
             'arrival_country' => 'required',
             'status' => 'required',
             'description' => 'required',
-            'title' => 'required',
         ]);
 
         //Update the transit
         $transit = \App\Models\Transit::where('id', $request->input('id'))->update([
-            'package_id' => $request->input('package_id'),
+            // 'package_id' => $request->input('package_id'),
             'mode' => $request->input('mode'),
-            'date_arrived' => $request->input('date_arrived'),
+            'expected_date_of_arrival' => $request->input('expected_date_of_arrival'),
             'date_sent' => $request->input('date_sent'),
             'depature_city' => $request->input('depature_city'),
             'depature_state' => $request->input('depature_state'),
@@ -93,7 +106,6 @@ class AdminTransitController extends Controller
             'arrival_country' => $request->input('arrival_country'),
             'status' => $request->input('status'),
             'description' => $request->input('description'),
-            'title' => $request->input('title'),
         ]);
 
         //Redirect to the package details page
@@ -105,7 +117,6 @@ class AdminTransitController extends Controller
         //Validate the request
         $request->validate([
             'id' => 'required',
-            'package_id' => 'required',
         ]);
 
         //Delete the transit

@@ -37,7 +37,7 @@
                             <span class="sub-title active-shape"> Logistics Company</span>
                             <h2 class="title">About Our Corporation</h2>
                             <p class="desc">
-                                Ranbax is a world leading provider of logistics, freight forwarding and supply
+                                AsusXpress is a world leading provider of logistics, freight forwarding and supply
                                 chain management services. Our focus is on simplifying complex supply chains, uncovering
                                 efficiency improvements that enable our customers to cut their inventories, reducing
                                 operating costs, and making significant short-term savings for long-term
@@ -225,7 +225,7 @@
                             </div>
                             <div class="faq-text">
                                 <h6 class="title">Express Shipping</h6>
-                                <p>International Parcel and Document delivery from Ranbax Express</p>
+                                <p>International Parcel and Document delivery from AsusXpress Express</p>
                             </div>
                         </div>
                     </div>
@@ -273,7 +273,7 @@
                                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                         data-bs-target="#collapseThree" aria-expanded="false"
                                         aria-controls="collapseThree">
-                                        WHAT MODES AND SERVICES DOES Ranbax PROVIDE?
+                                        WHAT MODES AND SERVICES DOES AsusXpress PROVIDE?
                                     </button>
                                 </h2>
                                 <div id="collapseThree" class="accordion-collapse collapse"
@@ -290,7 +290,7 @@
                                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                         data-bs-target="#collapseFour" aria-expanded="false"
                                         aria-controls="collapseFour">
-                                        I AM A SMALL START-UP, CAN Ranbax HELP ME?
+                                        I AM A SMALL START-UP, CAN AsusXpress HELP ME?
                                     </button>
                                 </h2>
                                 <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
@@ -312,7 +312,7 @@
                                 <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive"
                                     data-bs-parent="#accordionExample">
                                     <div class="accordion-body">
-                                        <strong>There are multiple ways in which Ranbax clients can track a
+                                        <strong>There are multiple ways in which AsusXpress clients can track a
                                             shipment.
                                             1. Customers with a substantial amount of freight coming into their facility
                                             expect their logistics company to provide instant access to their product at

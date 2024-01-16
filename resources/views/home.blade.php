@@ -4,7 +4,7 @@
 <head>
     <!-- Meta Tag -->
     <meta charset="utf-8" />
-    <title>Welcome to Ranbax</title>
+    <title>Welcome to AsusXpress</title>
     <meta name="description" content="" />
     <meta http-equiv="x-ua-compatible" content="ie=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -53,12 +53,16 @@
                 </div>
             </div>
             <div class="txt-loading">
-                <span data-text-preloader="R" class="letters-loading"> R </span>
                 <span data-text-preloader="A" class="letters-loading"> A </span>
-                <span data-text-preloader="N" class="letters-loading"> N </span>
-                <span data-text-preloader="B" class="letters-loading"> B </span>
-                <span data-text-preloader="A" class="letters-loading"> A </span>
+                <span data-text-preloader="s" class="letters-loading"> s </span>
+                <span data-text-preloader="u" class="letters-loading"> u </span>
+                <span data-text-preloader="s" class="letters-loading"> s </span>
                 <span data-text-preloader="X" class="letters-loading"> X </span>
+                <span data-text-preloader="p" class="letters-loading"> p </span>
+                <span data-text-preloader="r" class="letters-loading"> r </span>
+                <span data-text-preloader="e" class="letters-loading"> e </span>
+                <span data-text-preloader="s" class="letters-loading"> s </span>
+                <span data-text-preloader="s" class="letters-loading"> s </span>
             </div>
         </div>
     </div>
@@ -78,9 +82,9 @@
             </div>
         </div>
         <div class="tj-search-box">
-            <form action="#">
-                <input type="text" class="form-control-1" name="search" id="search" placeholder="ENTER TRACKING ID" />
-                <a href="#"> <i class="fa fa-search"></i></a>
+            <form action="{{route('customer.package.index')}}">
+                <input type="text" class="form-control-1" name="tracking_code" id="tracking_code" placeholder="ENTER TRACKING CODE" />
+                <button class="btn btn-xs"> <i class="fa fa-search"></i></button>
             </form>
         </div>
         <!-- Canvas Mobile Menu start -->
@@ -95,7 +99,7 @@
                 </div>
                 <div class="contact-link">
                     <span class="d-block"> Email us:</span>
-                    <a href="mailto:support@ranbax.com"> support@ranbax.com</a>
+                    <a href="mailto:support@AsusXpress.com"> support@AsusXpress.com</a>
                 </div>
             </div>
             <div class="contact-box">
@@ -465,7 +469,7 @@
                             </div>
                             <div class="faq-text">
                                 <h6 class="title">Express Shipping</h6>
-                                <p>International Parcel and Document delivery from Ranbax Express</p>
+                                <p>International Parcel and Document delivery from AsusXpress Express</p>
                             </div>
                         </div>
                     </div>
@@ -513,7 +517,7 @@
                                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                         data-bs-target="#collapseThree" aria-expanded="false"
                                         aria-controls="collapseThree">
-                                        WHAT MODES AND SERVICES DOES Ranbax PROVIDE?
+                                        WHAT MODES AND SERVICES DOES AsusXpress PROVIDE?
                                     </button>
                                 </h2>
                                 <div id="collapseThree" class="accordion-collapse collapse"
@@ -530,7 +534,7 @@
                                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                         data-bs-target="#collapseFour" aria-expanded="false"
                                         aria-controls="collapseFour">
-                                        I AM A SMALL START-UP, CAN Ranbax HELP ME?
+                                        I AM A SMALL START-UP, CAN AsusXpress HELP ME?
                                     </button>
                                 </h2>
                                 <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
@@ -552,7 +556,7 @@
                                 <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive"
                                     data-bs-parent="#accordionExample">
                                     <div class="accordion-body">
-                                        <strong>There are multiple ways in which Ranbax clients can track a
+                                        <strong>There are multiple ways in which AsusXpress clients can track a
                                             shipment.
                                             1. Customers with a substantial amount of freight coming into their facility
                                             expect their logistics company to provide instant access to their product at
@@ -663,7 +667,7 @@
                             <a href="index.html"> <img src="assets/images/logo/footer-logo.png" alt="Logo" /></a>
                         </div>
                         <p>
-                            Ranbax is a global supplier of transport and logistics solutions. We have offices in more than 70
+                            AsusXpress is a global supplier of transport and logistics solutions. We have offices in more than 70
                             countries and an international network of partners and agents.
                         </p>
                         <div class="footer-contact-list d-flex align-items-center">
@@ -682,7 +686,7 @@
                                 </div>
                                 <div class="contact-link">
                                     <span class="sub-title"> Email</span>
-                                    <a href="mailto:support@ranbax.com"> support@ranbax.com</a>
+                                    <a href="mailto:support@AsusXpress.com"> support@AsusXpress.com</a>
                                 </div>
                             </div>
                         </div>
@@ -692,12 +696,14 @@
                     <div class="footer-subscribe-box">
                         <h3 class="title">TRACK YOUR ITEM</h3>
                         <div class="footer-form">
+                            <form action="{{route('customer.package.index')}}" method="POST">
                             <input type="text" id="email" placeholder="Tracking ID" required="" />
                             <div class="tj-theme-button">
                                 <button class="tj-transparent-btn submit-btn2" type="submit" value="submit">
                                     Track <i class="flaticon-right-1"></i>
                                 </button>
                             </div>
+                            </form>
                         </div>
                         
                     </div>
@@ -711,7 +717,7 @@
                         <div class="footer-copyright-area footer-copyright-three">
                             <div class="copyright-target">
                                 <p>
-                                    Copyright © 2023 <a href="#"> Ranbax. </a> All Rights
+                                    Copyright © 2023 <a href="#"> AsusXpress. </a> All Rights
                                     Reserved.
                                 </p>
                             </div>

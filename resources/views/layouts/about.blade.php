@@ -4,7 +4,7 @@
 <head>
     <!-- Meta Tag -->
     <meta charset="utf-8" />
-    <title>Ranbax - @yield('title')</title>
+    <title>AsusXpress - @yield('title')</title>
     <meta name="description" content="" />
     <meta http-equiv="x-ua-compatible" content="ie=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -54,12 +54,16 @@
                 </div>
             </div>
             <div class="txt-loading">
-                <span data-text-preloader="R" class="letters-loading"> R </span>
                 <span data-text-preloader="A" class="letters-loading"> A </span>
-                <span data-text-preloader="N" class="letters-loading"> N </span>
-                <span data-text-preloader="B" class="letters-loading"> B </span>
-                <span data-text-preloader="A" class="letters-loading"> A </span>
+                <span data-text-preloader="s" class="letters-loading"> s </span>
+                <span data-text-preloader="u" class="letters-loading"> u </span>
+                <span data-text-preloader="s" class="letters-loading"> s </span>
                 <span data-text-preloader="X" class="letters-loading"> X </span>
+                <span data-text-preloader="p" class="letters-loading"> p </span>
+                <span data-text-preloader="r" class="letters-loading"> r </span>
+                <span data-text-preloader="e" class="letters-loading"> e </span>
+                <span data-text-preloader="s" class="letters-loading"> s </span>
+                <span data-text-preloader="s" class="letters-loading"> s </span>
             </div>
         </div>
     </div>
@@ -96,7 +100,7 @@
                 </div>
                 <div class="contact-link">
                     <span class="d-block"> Email us:</span>
-                    <a href="mailto:support@ranbax.com"> support@ranbax.com</a>
+                    <a href="mailto:support@AsusXpress.com"> support@AsusXpress.com</a>
                 </div>
             </div>
             <div class="contact-box">
@@ -244,7 +248,7 @@
                                     </li>
                                     <li>
                                         <i class="flaticon-email-2"></i>
-                                        <a href="mailto:support@ranbax.com"> support@ranbax.com</a>
+                                        <a href="mailto:support@AsusXpress.com"> support@AsusXpress.com</a>
                                     </li>
                                 </ul>
                             </div>
@@ -260,7 +264,7 @@
                         <div class="footer-copyright-area">
                             <div class="copyright-target">
                                 <p>
-                                    Copyright © 2023 <a href="#"> Ranbax. </a> All Rights
+                                    Copyright © 2023 <a href="#"> AsusXpress. </a> All Rights
                                     Reserved.
                                 </p>
                             </div>

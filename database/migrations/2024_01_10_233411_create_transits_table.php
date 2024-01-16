@@ -26,7 +26,6 @@ return new class extends Migration
             $table->string('arrival_country');
             $table->string('status');
             $table->string('description');
-            $table->string('title');
         });
     }
 

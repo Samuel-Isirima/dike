@@ -47,8 +47,8 @@
                                     Ocean Freight Forwarding</a>
                             </h3>
                             <p>
-                                Ranbax is uniquely positioned for offering a complete and competitive FCL and LCL
-                                product. Ranbax’s LCL services range from the coordination of single LCL shipments
+                                AsusXpress is uniquely positioned for offering a complete and competitive FCL and LCL
+                                product. AsusXpress’s LCL services range from the coordination of single LCL shipments
                                 all the way to multicountry consolidation. All LCL cargo is consolidated into FCL loads
                                 at one of our hubs and then shipped to destination, thus realising significant savings
                                 in transportation, administration, and handling costs and reducing transit times.
@@ -66,7 +66,7 @@
                                 <div class="check-list">
                                     <h3 class="title">GLOBAL FULL-CONTAINER-LOAD (FCL)</h3>
                                     <p>
-                                        Ranbax FCL combines our long expertise in containerised freight with all
+                                        AsusXpress FCL combines our long expertise in containerised freight with all
                                         the services you need to establish a comprehensive door-to-door flow through
                                         just a single point of contact. Our carrier relationships and market activity
                                         enable us to offer highly competitive rates while our systems, expertise, and

@@ -12,7 +12,7 @@ class Transit extends Model
     protected $fillable = [
         'package_id',
         'mode',
-        'date_arrived',
+        'expected_date_of_arrival',
         'date_sent',
         'depature_city',
         'depature_state',

@@ -70,6 +70,8 @@ Route::get(uri: '/admin/create-transit', action: [AdminTransitController::class,
 
 Route::post(uri: '/admin/create-transit-action', action: [AdminTransitController::class, 'create'])->name(name: 'admin.transit.create');
 
-Route::post(uri: '/admin/edit-transit', action: [AdminTransitController::class, 'edit'])->name(name: 'admin.transit.edit');
+Route::post(uri: '/admin/edit-transit-action', action: [AdminTransitController::class, 'edit'])->name(name: 'admin.transit.edit');
+
+Route::get(uri: '/admin/edit-transit', action: [AdminTransitController::class, 'showEdit'])->name(name: 'admin.transit.show-edit');
 
 Route::post(uri: '/admin/delete-transit', action: [AdminTransitController::class, 'delete'])->name(name: 'admin.transit.delete');

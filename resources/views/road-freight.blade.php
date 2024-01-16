@@ -49,7 +49,7 @@
                             </h3>
                             <p>
                                 When goods have to be delivered to your customer's door, road freight is still
-                                indispensable. And will remain so in future. In recent years, Ranbax has
+                                indispensable. And will remain so in future. In recent years, AsusXpress has
                                 expanded the options for European distribution by road freight by adding dozens of
                                 lanes. We make up our own daily schedules for packed product lines. This applies both to
                                 full and part truck loads.
@@ -65,7 +65,7 @@
                                 <div class="check-list">
                                     <h3 class="title">Transport Solutions</h3>
                                     <p>
-                                        Ranbax is the number one logistics supply chain director with a
+                                        AsusXpress is the number one logistics supply chain director with a
                                         maritime character. In addition to overseas import, export and warehousing
                                         activities, we also handle the distribution of your goods to and from any
                                         destination in the World. For more than 20 years, our business locations

@@ -65,7 +65,7 @@
                                 <div class="check-list">
                                     <h3 class="title">GLOBAL EXPRESS SHIPPING</h3>
                                     <p>
-                                        On selected high volume trade lanes, Ranbax operates a hub and gateway
+                                        On selected high volume trade lanes, AsusXpress operates a hub and gateway
                                         network, using our own controlled capacity through our in-house carrier. By
                                         careful selection of airports, and by using our own staff, we can ensure
                                         services that are frequent, cost-effective and highly reliable. We also offers
