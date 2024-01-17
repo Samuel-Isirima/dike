@@ -73,7 +73,7 @@
     <div class="tj-offcanvas-area">
         <div class="tj-offcanvas-header d-flex align-items-center justify-content-between">
             <div class="logo-area text-center">
-                <a href="/"><img src="assets/images/logo/logo.png" alt="Logo" /></a>
+                <a href="/"><img height="80" src="assets/images/logo/logo.jpeg" alt="Logo" /></a>
             </div>
             <div class="offcanvas-icon">
                 <a id="canva_close">
@@ -125,7 +125,7 @@
                         <div class="search_top d-flex justify-content-between align-items-center">
                             <div class="search_logo">
                                 <a href="/">
-                                    <img src="assets/images/logo/logo2.png" alt="logo" />
+                                    <img height="80" src="assets/images/logo/logo.png" alt="logo" />
                                 </a>
                             </div>
                             <div class="search_close">
@@ -159,7 +159,7 @@
                     <div class="col-lg-12">
                         <div class="header-menu-area">
                             <div class="logo-box">
-                                <a href="/"><img src="assets/images/logo/logo2.png" alt="Logo" /></a>
+                                <a href="/"><img height="50" src="assets/images/logo/logo.png" alt="Logo" /></a>
                             </div>
                             <!-- Mainmenu Item Start -->
                             <div class="tj-main-menu d-lg-block d-none text-end" id="main-menu">
@@ -595,7 +595,7 @@
                 <div class="col-lg-12">
                     <div class="choose-us-top-content">
                         <div class="tj-section-heading">
-                            <span class="sub-title active-shape2"> Few reasons people choose us</span>
+                            <span class="sub-title active-shape2" style="color: white"> Few reasons people choose us</span>
                             <h2 class="title">Reasons Why You Choose Us.</h2>
                         </div>
                         <div class="tj-theme-button">
@@ -664,7 +664,7 @@
                 <div class="col-xl-6 col-lg-6">
                     <div class="footer-contact-box">
                         <div class="footer-logo">
-                            <a href="/"> <img src="assets/images/logo/footer-logo.png" alt="Logo" /></a>
+                            <a href="/"> <img src="assets/images/logo/logo.png" alt="Logo" /></a>
                         </div>
                         <p>
                             AsusXpress is a global supplier of transport and logistics solutions. We have offices in more than 70
@@ -717,7 +717,7 @@
                         <div class="footer-copyright-area footer-copyright-three">
                             <div class="copyright-target">
                                 <p>
-                                    Copyright © 2023 <a href="#"> AsusXpress. </a> All Rights
+                                    Copyright © 2023 <a href="/"> AsusXpress. </a> All Rights
                                     Reserved.
                                 </p>
                             </div>

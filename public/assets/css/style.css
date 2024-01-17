@@ -37,7 +37,7 @@
     --tj-ff-body: "Poppins", sans-serif;
 }
 :root {
-    --tj-primary-color: #fd5523;
+    --tj-primary-color: #1439a5;
     --tj-primary-color2: #ffd1c3;
     --tj-primary-color3: #8f3c23;
     --tj-secondary-color: #062e39;
@@ -7609,7 +7609,7 @@ div .tj-service-icon-box2 ul li:hover .service-item::before {
     left: 8px;
     bottom: 6px;
     border-right: 27px solid transparent;
-    border-bottom: 27px solid #f9724a;
+    border-bottom: 27px solid #88a7ff;
     content: "";
     z-index: 2;
 }
@@ -7678,7 +7678,7 @@ div .tj-service-icon-box2 ul li:hover .service-item::before {
     left: 8px;
     bottom: 8px;
     border-right: 24px solid transparent;
-    border-bottom: 24px solid #f9724a;
+    border-bottom: 24px solid #88a7ff;
     content: "";
     z-index: 2;
 }
@@ -7765,7 +7765,7 @@ div .tj-service-icon-box2 ul li:hover .service-item::before {
     left: 8px;
     bottom: 8px;
     border-right: 25px solid transparent;
-    border-bottom: 25px solid #f9724a;
+    border-bottom: 25px solid #88a7ff;
     content: "";
     z-index: 2;
 }
