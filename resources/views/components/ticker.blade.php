@@ -1,24 +1,24 @@
-<div class="d-flex justify-content-between bg-white white" style="z-index; 10; position: fixed; bottom: 0;">
-<div class="d-flex justify-content-center bg-primary py-2 text-white px-1 news">
-<span class="d-flex align-items-center">Update:</span>
-</div>
+<div class="d-flex justify-content-between bg-white white" style="z-index; 10; position: fixed; bottom: 0; border-top: solid 1px #bfd3ff;">
+<!-- <div class="d-flex justify-content-center bg-primary py-2 text-white px-1 news"> -->
+<!-- <span class="d-flex align-items-center">Update</span> -->
+<!-- </div> -->
 <ul class="scroll" >
 <li>
-<span class="dot"></span> 
+<!-- <span class="dot"></span>  -->
 <a href="https://www.reuters.com/business/autos-transportation/freighters-seek-air-cargo-back-up-amid-red-sea-shipping-crisis-2024-01-17/">Freighters seek air cargo back-up amid Red Sea shipping crisis
 </a> 
 </li>
 <li>
-<span class="dot"></span> 
+<!-- <span class="dot"></span>  -->
 <a href="https://indiashippingnews.com/inland-water-transport-in-andhra-pradeshapiwa-being-strengthened/">Inland Water Transport in Andhra Pradesh(APIWA) being strengthened
 </a> 
 </li>
 <li>
-<span class="dot"></span> 
+<!-- <span class="dot"></span>  -->
 <a href="https://www.aljazeera.com/news/2024/1/16/turkey-court-fines-somali-presidents-son-for-car-crash-that-killed-courier">Turkey court fines Somali president’s son for car crash that killed courier </a> 
 </li>
 <li>
-<span class="dot"></span> 
+<!-- <span class="dot"></span>  -->
 <a href="https://www.cnbc.com/2024/01/17/red-sea-attacks-air-freight-rates-to-rise-as-shippers-enter-survival-mode.html">STATE OF FREIGHT:
 Air freight rates could spike as Red Sea attacks disrupt shipments via sea</a> 
 </li>
@@ -86,7 +86,9 @@ Air freight rates could spike as Red Sea attacks disrupt shipments via sea</a>
 {
     0%   {margin-top: 0;}
 	35%  {margin-top: -30px;}
-	70%  {margin-top: -100px;}
+	70%  {margin-top: -250px;}
+	80%  {margin-top: -150px;}
+	90%  {margin-top: -50px;}
 	100% {margin-top: 0;}
 	
 }

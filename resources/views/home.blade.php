@@ -50,7 +50,7 @@
         <div class="animation-preloader">
             <div class="spinner">
                 <div class="loader-icon">
-                    <img src="assets/images/logo/loder.png" alt="" />
+                    <!-- <img src="assets/images/logo/loder.png" alt="" /> -->
                 </div>
             </div>
             <div class="txt-loading">

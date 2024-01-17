@@ -8,11 +8,10 @@
     <meta name="description" content="" />
     <meta http-equiv="x-ua-compatible" content="ie=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-
-    <!-- Favicon -->
-    <link rel="apple-touch-icon" href="assets/images/fav.svg" />
-    <link rel="shortcut icon" type="image/x-icon" href="assets/images/fav.svg" />
-
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
     <!-- Bootstrap  v5.1.3 css -->
     <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
     <!-- Meanmenu  css -->
@@ -50,7 +49,7 @@
         <div class="animation-preloader">
             <div class="spinner">
                 <div class="loader-icon">
-                    <img src="assets/images/logo/loder.png" alt="" />
+                    <!-- <img src="assets/images/logo/logo.jpeg" alt="" /> -->
                 </div>
             </div>
             <div class="txt-loading">
@@ -83,9 +82,9 @@
             </div>
         </div>
         <div class="tj-search-box">
-            <form action="#">
-                <input type="text" class="form-control-1" name="search" id="search" placeholder="ENTER TRACKING ID" />
-                <a href="#"> <i class="fa fa-search"></i></a>
+            <form  action="{{route('customer.package.index')}}" method="GET">
+                <input type="text" class="form-control-1" name="tracking_code" required placeholder="ENTER TRACKING ID" />
+                <button class="btn btn-success btn-xs"> <i class="fa fa-search"></i></button>
             </form>
         </div>
         <!-- Canvas Mobile Menu start -->
@@ -146,7 +145,7 @@
                             <!-- Header menu Start -->
                             <div class="header-content d-flex flex-wrap align-items-center justify-content-between">
                                 <div class="mobile-logo-area d-lg-none">
-                                    <a href="/"><img height="80" src="assets/images/logo/logo.png" alt="Logo" /></a>
+                                    <a href="/"><img height="40" src="assets/images/logo/logo.jpeg" alt="Logo" /></a>
                                 </div>
                                 <!-- Mainmenu Item Start -->
                                 <div class="tj-main-menu d-lg-block d-none text-end" id="main-menu">
