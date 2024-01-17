@@ -44,6 +44,7 @@
 </head>
 
 <body>
+    
     <!-- Preloader start -->
     <div id="preloader" class="preloader">
         <div class="animation-preloader">
@@ -70,6 +71,7 @@
 
     <!-- Offcanvas Area Start-->
     <div id="tj-overlay-bg2" class="tj-overlay-canvas"></div>
+     
     <div class="tj-offcanvas-area">
         <div class="tj-offcanvas-header d-flex align-items-center justify-content-between">
             <div class="logo-area text-center">
@@ -746,6 +748,9 @@
             </svg>
         </div>
     </div>
+  <x-ticker/>
+
+
     <!-- End scrollUp  -->
 
     <!-- Modernizr.JS -->
@@ -778,4 +783,12 @@
     <script src="assets/js/main.js"></script>
 </body>
 
+<script>
+        //on load, set the z-index of the white class
+        $(function() {
+            //set the z index of the white class to 10
+            $('.white').css('z-index', 10)
+            console.log('white')
+        })
+    </script>
 </html>

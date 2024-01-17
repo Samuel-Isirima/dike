@@ -263,7 +263,7 @@
                         <div class="footer-copyright-area">
                             <div class="copyright-target">
                                 <p>
-                                    Copyright © 2023 <a href="#"> AsusXpress. </a> All Rights
+                                    Copyright © 2023 <a href="/"> AsusXpress. </a> All Rights
                                     Reserved.
                                 </p>
                             </div>
@@ -294,6 +294,7 @@
     </div>
     <!-- End scrollUp  -->
 
+    <x-ticker/>
     <!-- Modernizr.JS -->
     <script src="assets/js/modernizr-2.8.3.min.js"></script>
     <!-- jQuery.min JS -->
@@ -324,4 +325,26 @@
     <script src="assets/js/main.js"></script>
 </body>
 
+<script>
+        //on load, set the z-index of the white class
+        $(function() {
+            //set the z index of the white class to 10
+            $('.white').css('z-index', 10)
+            console.log('white')
+        })
+    </script>
+
+<script>
+   //wait for the page to load, then wait one more second
+   $(document).ready(function() {
+    setTimeout(function() {
+    
+  // Get all elements with the class 'scaling-svg'
+  const svgElements = document.querySelectorAll('.fa-shipping-fast');
+    console.log(svgElements);
+  // Add the 'scaled' class to the last SVG element
+  svgElements[svgElements.length - 1].classList.add('scaled');
+}, 1000);
+});
+</script>
 </html>
