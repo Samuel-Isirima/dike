@@ -38,6 +38,6 @@ jobs:
           script: |
             cd /home/ubuntu/asusxpress
             git pull origin main
-            composer update
+            composer install
             php artisan migrate --force
 
