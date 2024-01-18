@@ -26,10 +26,10 @@ jobs:
 
     needs: build
 
-    if: github.ref == 'refs/heads/master'  # Only run for the main branch
+    if: github.ref == 'refs/heads/main'  # Only run for the main branch
 
     steps:
-      - name: Deploy to Ubuntu server (master)
+      - name: Deploy to Ubuntu server (main)
         uses: appleboy/ssh-action@master
         with:
           host: 54.175.27.249
