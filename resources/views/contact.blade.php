@@ -32,7 +32,7 @@
         <section class="tj-contact-page">
             <div class="container">
                 <div class="row tj-contact-box">
-                    <div class="col-lg-4 col-md-6">
+                    <!-- <div class="col-lg-4 col-md-6">
                         <div class="tj-contact-list">
                             <div class="contact-icon">
                                 <i class="flaticon-phone-call"></i>
@@ -42,19 +42,19 @@
                                 <a href="tel:+1(246)3330079"> +1 (246) 333 0079</a>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6">
+                    </div> -->
+                    <div class="col-lg-6 col-md-6">
                         <div class="tj-contact-list">
                             <div class="contact-icon">
                                 <i class="flaticon-email-3"></i>
                             </div>
                             <div class="contact-header">
                                 <span> Any Questions? Email us</span>
-                                <a href="mailto:example@gmail.com"> example@gmail.com</a>
+                                <a href="mailto:support@asusxpress.com"> support@asusxpress.com</a>
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-6">
+                    <!-- <div class="col-lg-4 col-md-6">
                         <div class="tj-contact-list">
                             <div class="contact-icon">
                                 <i class="flaticon-map"></i>
@@ -64,7 +64,7 @@
                                 <a href="#"> CB4, United Kingdom</a>
                             </div>
                         </div>
-                    </div>
+                    </div> -->
                 </div>
                 <div class="row align-items-center">
                     <div class="col-lg-7">

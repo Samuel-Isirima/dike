@@ -44,30 +44,13 @@
 </head>
 
 <body>
-    <!-- Preloader start -->
-    <div id="preloader" class="preloader">
+     <!-- Preloader start -->
+     <div id="preloader" class="preloader" style="background-color: #f7f5ec">
         <div class="animation-preloader">
-            <div class="spinner">
-                <div class="loader-icon">
-                    <!-- <img src="assets/images/logo/logo.jpeg" alt="" /> -->
-                </div>
-            </div>
-            <div class="txt-loading">
-                <span data-text-preloader="A" class="letters-loading"> A </span>
-                <span data-text-preloader="s" class="letters-loading"> s </span>
-                <span data-text-preloader="u" class="letters-loading"> u </span>
-                <span data-text-preloader="s" class="letters-loading"> s </span>
-                <span data-text-preloader="X" class="letters-loading"> X </span>
-                <span data-text-preloader="p" class="letters-loading"> p </span>
-                <span data-text-preloader="r" class="letters-loading"> r </span>
-                <span data-text-preloader="e" class="letters-loading"> e </span>
-                <span data-text-preloader="s" class="letters-loading"> s </span>
-                <span data-text-preloader="s" class="letters-loading"> s </span>
-            </div>
+                    <img src="assets/images/ship-sailing.gif" alt="" height="200" width="200" />
         </div>
     </div>
     <!-- Preloader end -->
-
     <!-- Offcanvas Area Start-->
     <div id="tj-overlay-bg2" class="tj-overlay-canvas"></div>
     <div class="tj-offcanvas-area">
@@ -240,10 +223,10 @@
                         <div class="widget-contact">
                             <div class="contact-list">
                                 <ul class="list-gap">
-                                    <li>
+                                    <!-- <li>
                                         <i class="flaticon-phone-call"></i>
                                         <a href="tel:(880)1247536548"> (880)1247536548</a>
-                                    </li>
+                                    </li> -->
                                     <li>
                                         <i class="flaticon-email-2"></i>
                                         <a href="mailto:support@AsusXpress.com"> support@AsusXpress.com</a>

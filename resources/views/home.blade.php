@@ -8,10 +8,10 @@
     <meta name="description" content="" />
     <meta http-equiv="x-ua-compatible" content="ie=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-
-    <!-- Favicon -->
-    <link rel="apple-touch-icon" href="assets/images/fav.svg" />
-    <link rel="shortcut icon" type="image/x-icon" href="assets/images/fav.svg" />
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
 
     <!-- Bootstrap  v5.1.3 css -->
     <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
@@ -42,39 +42,16 @@
         integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
         <!-- Pixel Fox Tag Manager -->
-<script>
-  var _mtm = window._mtm = window._mtm || [];
-  _mtm.push({'mtm.startTime': (new Date().getTime()), 'event': 'mtm.Start'});
-  (function() {
-    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
-    g.async=true; g.src='https://tracking.pixelfox.co/js/container_34hbAZF4.js'; s.parentNode.insertBefore(g,s);
-  })();
-</script>
+
 <!-- End Pixel Fox Tag Manager -->
 </head>
 
 <body>
     
     <!-- Preloader start -->
-    <div id="preloader" class="preloader">
+    <div id="preloader" class="preloader" style="background-color: #f7f5ec">
         <div class="animation-preloader">
-            <div class="spinner">
-                <div class="loader-icon">
-                    <!-- <img src="assets/images/logo/loder.png" alt="" /> -->
-                </div>
-            </div>
-            <div class="txt-loading">
-                <span data-text-preloader="A" class="letters-loading"> A </span>
-                <span data-text-preloader="s" class="letters-loading"> s </span>
-                <span data-text-preloader="u" class="letters-loading"> u </span>
-                <span data-text-preloader="s" class="letters-loading"> s </span>
-                <span data-text-preloader="X" class="letters-loading"> X </span>
-                <span data-text-preloader="p" class="letters-loading"> p </span>
-                <span data-text-preloader="r" class="letters-loading"> r </span>
-                <span data-text-preloader="e" class="letters-loading"> e </span>
-                <span data-text-preloader="s" class="letters-loading"> s </span>
-                <span data-text-preloader="s" class="letters-loading"> s </span>
-            </div>
+                    <img src="assets/images/ship-sailing.gif" alt="" height="200" width="200" />
         </div>
     </div>
     <!-- Preloader end -->
@@ -683,7 +660,7 @@
                             countries and an international network of partners and agents.
                         </p>
                         <div class="footer-contact-list d-flex align-items-center">
-                            <div class="contact-box">
+                            <!-- <div class="contact-box">
                                 <div class="contact-icon">
                                     <i class="flaticon-phone-call"></i>
                                 </div>
@@ -691,7 +668,7 @@
                                     <span class="sub-title"> Phone Call</span>
                                     <a href="tel:(+01)1234567890"> (+01) 123 456 7890</a>
                                 </div>
-                            </div>
+                            </div> -->
                             <div class="contact-box">
                                 <div class="contact-icon">
                                     <i class="flaticon-email-2"></i>
