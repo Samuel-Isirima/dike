@@ -47,7 +47,7 @@
      <!-- Preloader start -->
      <div id="preloader" class="preloader" style="background-color: #f7f5ec">
         <div class="animation-preloader">
-                    <img src="assets/images/ship-sailing.gif" alt="" height="200" width="200" />
+                    <img src="assets/images/ship-loading.gif" alt="" height="70" width="150" />
         </div>
     </div>
     <!-- Preloader end -->
@@ -56,7 +56,7 @@
     <div class="tj-offcanvas-area">
         <div class="tj-offcanvas-header d-flex align-items-center justify-content-between">
             <div class="logo-area text-center">
-                <a href="/"><img height="80" src="assets/images/logo/logo.jpeg" alt="Logo" /></a>
+                <a href="/"><img height="50" src="assets/images/asus.jpeg" alt="Logo" /></a>
             </div>
             <div class="offcanvas-icon">
                 <a id="canva_close">
@@ -128,7 +128,7 @@
                             <!-- Header menu Start -->
                             <div class="header-content d-flex flex-wrap align-items-center justify-content-between">
                                 <div class="mobile-logo-area d-lg-none">
-                                    <a href="/"><img height="40" src="assets/images/logo/logo.jpeg" alt="Logo" /></a>
+                                    <a href="/"><img height="50" src="assets/images/asus.jpeg" alt="Logo" /></a>
                                 </div>
                                 <!-- Mainmenu Item Start -->
                                 <div class="tj-main-menu d-lg-block d-none text-end" id="main-menu">
