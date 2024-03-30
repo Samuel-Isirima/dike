@@ -4,7 +4,7 @@
 <head>
     <!-- Meta Tag -->
     <meta charset="utf-8" />
-    <title>Welcome to AsusXpress</title>
+    <title>Welcome to AsussXpress</title>
     <meta name="description" content="" />
     <meta http-equiv="x-ua-compatible" content="ie=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -88,7 +88,7 @@
                 </div>
                 <div class="contact-link">
                     <span class="d-block"> Email us:</span>
-                    <a href="mailto:support@AsusXpress.com"> support@AsusXpress.com</a>
+                    <a href="mailto:support@AsussXpress.com"> support@AsussXpress.com</a>
                 </div>
             </div>
             <div class="contact-box">
@@ -458,7 +458,7 @@
                             </div>
                             <div class="faq-text">
                                 <h6 class="title">Express Shipping</h6>
-                                <p>International Parcel and Document delivery from AsusXpress Express</p>
+                                <p>International Parcel and Document delivery from AsussXpress Express</p>
                             </div>
                         </div>
                     </div>
@@ -506,7 +506,7 @@
                                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                         data-bs-target="#collapseThree" aria-expanded="false"
                                         aria-controls="collapseThree">
-                                        WHAT MODES AND SERVICES DOES AsusXpress PROVIDE?
+                                        WHAT MODES AND SERVICES DOES AsussXpress PROVIDE?
                                     </button>
                                 </h2>
                                 <div id="collapseThree" class="accordion-collapse collapse"
@@ -523,7 +523,7 @@
                                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                         data-bs-target="#collapseFour" aria-expanded="false"
                                         aria-controls="collapseFour">
-                                        I AM A SMALL START-UP, CAN AsusXpress HELP ME?
+                                        I AM A SMALL START-UP, CAN AsussXpress HELP ME?
                                     </button>
                                 </h2>
                                 <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
@@ -545,7 +545,7 @@
                                 <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive"
                                     data-bs-parent="#accordionExample">
                                     <div class="accordion-body">
-                                        <strong>There are multiple ways in which AsusXpress clients can track a
+                                        <strong>There are multiple ways in which AsussXpress clients can track a
                                             shipment.
                                             1. Customers with a substantial amount of freight coming into their facility
                                             expect their logistics company to provide instant access to their product at
@@ -656,7 +656,7 @@
                             <a href="/"> <img src="assets/images/logo/logo.png" alt="Logo" /></a>
                         </div>
                         <p>
-                            AsusXpress is a global supplier of transport and logistics solutions. We have offices in more than 70
+                            AsussXpress is a global supplier of transport and logistics solutions. We have offices in more than 70
                             countries and an international network of partners and agents.
                         </p>
                         <div class="footer-contact-list d-flex align-items-center">
@@ -675,7 +675,7 @@
                                 </div>
                                 <div class="contact-link">
                                     <span class="sub-title"> Email</span>
-                                    <a href="mailto:support@AsusXpress.com"> support@AsusXpress.com</a>
+                                    <a href="mailto:support@AsussXpress.com"> support@AsussXpress.com</a>
                                 </div>
                             </div>
                         </div>
@@ -706,7 +706,7 @@
                         <div class="footer-copyright-area footer-copyright-three">
                             <div class="copyright-target">
                                 <p>
-                                    Copyright © 2023 <a href="/"> AsusXpress. </a> All Rights
+                                    Copyright © 2023 <a href="/"> AsussXpress. </a> All Rights
                                     Reserved.
                                 </p>
                             </div>

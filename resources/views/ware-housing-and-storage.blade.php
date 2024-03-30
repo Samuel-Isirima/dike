@@ -61,7 +61,7 @@
                                 <div class="check-list">
                                     <h3 class="title">Knowledge And Facilities</h3>
                                     <p>
-                                        AsusXpress’s scale enables us to take innovative and decisive action to develop
+                                        AsussXpress’s scale enables us to take innovative and decisive action to develop
                                         and implement the most suitable service portfolio for your organisation. For
                                         this purpose, we have an IT & logistical engineering department. Our warehouse
                                         processes focus on goods intakes, AEO-certified customs services, quality

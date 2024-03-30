@@ -4,7 +4,7 @@
 <head>
     <!-- Meta Tag -->
     <meta charset="utf-8" />
-    <title>AsusXpress - @yield('title')</title>
+    <title>AsussXpress - @yield('title')</title>
     <meta name="description" content="" />
     <meta http-equiv="x-ua-compatible" content="ie=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -82,7 +82,7 @@
                 </div>
                 <div class="contact-link">
                     <span class="d-block"> Email us:</span>
-                    <a href="mailto:support@AsusXpress.com"> support@AsusXpress.com</a>
+                    <a href="mailto:support@AsussXpress.com"> support@AsussXpress.com</a>
                 </div>
             </div>
             <div class="contact-box">
@@ -187,7 +187,7 @@
                         data-bg-image="assets/images/banner/footer-shape.png">
                         <a href="/"> <img height="80" src="assets/images/logo/logo.png" alt="Logo" /></a>
                         <p>
-                        AsusXpress is a global supplier of transport and logistics solutions. We have offices in more than 70 countries and an international network of partners and agents.
+                        AsussXpress is a global supplier of transport and logistics solutions. We have offices in more than 70 countries and an international network of partners and agents.
                         </p>
                     </div>
                 </div>
@@ -229,7 +229,7 @@
                                     </li> -->
                                     <li>
                                         <i class="flaticon-email-2"></i>
-                                        <a href="mailto:support@AsusXpress.com"> support@AsusXpress.com</a>
+                                        <a href="mailto:support@AsussXpress.com"> support@AsussXpress.com</a>
                                     </li>
                                 </ul>
                             </div>
@@ -245,7 +245,7 @@
                         <div class="footer-copyright-area">
                             <div class="copyright-target">
                                 <p>
-                                    Copyright © 2023 <a href="/"> AsusXpress. </a> All Rights
+                                    Copyright © 2023 <a href="/"> AsussXpress. </a> All Rights
                                     Reserved.
                                 </p>
                             </div>

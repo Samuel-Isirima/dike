@@ -50,7 +50,7 @@
                             </div>
                             <div class="contact-header">
                                 <span> Any Questions? Email us</span>
-                                <a href="mailto:support@asusxpress.com"> support@asusxpress.com</a>
+                                <a href="mailto:support@asussxpress.com"> support@asussxpress.com</a>
                             </div>
                         </div>
                     </div>
