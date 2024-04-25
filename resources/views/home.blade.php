@@ -97,7 +97,7 @@
                 </div>
                 <div class="contact-link">
                     <span class="d-block"> Call us:</span>
-                    <a href="tel:+1800-456-7890"> +1800-456-7890</a>
+                    <a href="tel:+1 (985) 240-9084"> +1 (985) 240-9084</a>
                 </div>
             </div>
         </div>
@@ -660,15 +660,15 @@
                             countries and an international network of partners and agents.
                         </p>
                         <div class="footer-contact-list d-flex align-items-center">
-                            <!-- <div class="contact-box">
+                            <div class="contact-box">
                                 <div class="contact-icon">
                                     <i class="flaticon-phone-call"></i>
                                 </div>
                                 <div class="contact-link">
                                     <span class="sub-title"> Phone Call</span>
-                                    <a href="tel:(+01)1234567890"> (+01) 123 456 7890</a>
+                                    <a href="tel:+1 (985) 240-9084"> +1 (985) 240-9084</a>
                                 </div>
-                            </div> -->
+                            </div>
                             <div class="contact-box">
                                 <div class="contact-icon">
                                     <i class="flaticon-email-2"></i>

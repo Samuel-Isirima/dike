@@ -91,7 +91,7 @@
                 </div>
                 <div class="contact-link">
                     <span class="d-block"> Call us:</span>
-                    <a href="tel:+1800-456-7890"> +1800-456-7890</a>
+                    <a href="tel:+1 (985) 240-9084">+1 (985) 240-9084</a>
                 </div>
             </div>
         </div>
@@ -223,10 +223,10 @@
                         <div class="widget-contact">
                             <div class="contact-list">
                                 <ul class="list-gap">
-                                    <!-- <li>
+                                    <li>
                                         <i class="flaticon-phone-call"></i>
-                                        <a href="tel:(880)1247536548"> (880)1247536548</a>
-                                    </li> -->
+                                        <a href="tel:+1 (985) 240-9084"> +1 (985) 240-9084</a>
+                                    </li>
                                     <li>
                                         <i class="flaticon-email-2"></i>
                                         <a href="mailto:support@AsussXpress.com"> support@AsussXpress.com</a>
